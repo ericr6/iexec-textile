@@ -4,7 +4,7 @@
 ## Introduction
 The textile bucket feature over IPFS offers a simplified, secure and efficient solution to collect the result of distributed computation. IExec is well suited to distribute computation thanks to the decentralized marketplace for computing resources. With iExec, large simulation is divided in many tasks that optimizes the resources usage and the time to solution. But when simulation is completed, the result collection is fragmented and more complicated to achieve. Textile simplifies and improves the process.
 
-## Application description:
+## Application description
 
 Rendering is the process of generating an image from a 3D model. The model may contain moving objects textures, lighting and shading information or camera moving.
 The result is a digital image or movie, a suite of image, and may need a lot of computation. 
@@ -30,7 +30,7 @@ iExec supports Bags of Tasks execution to ease the deployment of distributed com
 
 
 ## Improvment proposal
-iExec supports secure computation and can save credential in a secure secure service used in the iExec infrastructure to manage enclaves.  
+iExec supports secure computation and can save credential in a secure service used in the iExec infrastructure to manage enclaves. This Secret management should support the bucket credential to improve security.     
 
 
 ## Code description
@@ -42,4 +42,5 @@ the token access is transferred to the application
 
 textile_docker/
 standalone container to use textile tools
+
 
